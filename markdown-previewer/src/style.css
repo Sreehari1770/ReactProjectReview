@@ -1,0 +1,59 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+h1{
+    color:black;
+}
+.shadow{
+    padding-top: 7px;
+    margin-left: 15%;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.three h1 {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+  }
+  .three h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: #111;
+  }
+  .three h1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 255px;
+    background-color: #333;
+  }
+  .five h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700; color:#202020;
+    text-transform: uppercase;
+    word-spacing: 1px; letter-spacing:2px;
+  }
+  .five h3 span {
+    margin-top: 40px;
+    text-transform: none;
+    font-size:25px;
+    font-weight: normal;
+    font-style: italic; font-family: "Playfair Display","Bookman",serif;
+    color:black; letter-spacing:-0.005em; word-spacing:1px;
+    letter-spacing:none;
+  }
+  
